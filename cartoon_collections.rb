@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   
-  array.map  { |name|  "#{name.upcase}!" }
+  array.map  { |name|  "#{name.capitalize}!" }
   
 end
 
