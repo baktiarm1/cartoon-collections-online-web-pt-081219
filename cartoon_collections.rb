@@ -13,7 +13,7 @@ end
 def long_planeteer_calls(array)
   val = ''
   array.each do |word|
-    if word.length > 4
+    if word.length > 3
      val =  true 
     else 
     val =  false 
